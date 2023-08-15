@@ -1,8 +1,13 @@
-### 자바 프로젝트 코틀린으로 변환하기
+## 자바 프로젝트 코틀린으로 변환하기
 
-## 코틀린 설정 적용하기
+### 코틀린 설정 적용하기
+1. 코틀린 dsl 파일 생성
+   * build.gradie.kts
+   * settings.gradle.kts
+2. 코틀린 문법에 맞게 다음과 같이 설정을 적용
 
-```kotlin:build.gradle.kts
+```build.gradle.kts```
+```kotlin
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -66,7 +71,8 @@ tasks.withType<Test> {
 }
 ```
 
-```kotlin:settings.gradle.kts
+```settings.gradle.kts```
+```kotlin
 rootProject.name = "todo-java"
 ```
 
