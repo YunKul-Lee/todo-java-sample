@@ -1,7 +1,5 @@
 package com.jake.kotlinjava.todo;
 
-import com.jake.kotlinjava.todo.domain.Todo;
-import com.jake.kotlinjava.todo.domain.TodoRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
