@@ -1,13 +1,13 @@
-package com.jake.todo.java;
+package com.jake.kotlinjava.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TodoJavaSampleApplication {
+public class TodoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TodoJavaSampleApplication.class, args);
+		SpringApplication.run(TodoApplication.class, args);
 	}
 
 }
