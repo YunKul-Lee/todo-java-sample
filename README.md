@@ -2,7 +2,7 @@
 
 ### 코틀린 설정 적용하기
 1. 코틀린 dsl 파일 생성
-   * build.gradie.kts
+   * build.gradle.kts
    * settings.gradle.kts
 2. 코틀린 문법에 맞게 다음과 같이 설정을 적용
 
