@@ -1,9 +1,7 @@
 package com.jake.kotlinjava.todo.service;
 
-import com.jake.kotlinjava.todo.controller.model.TodoRequest;
 import com.jake.kotlinjava.todo.domain.Todo;
 import com.jake.kotlinjava.todo.domain.TodoRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
